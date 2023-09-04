@@ -12,7 +12,7 @@ function formProcessing(event) {
     console.dir(password.value);
 
     const data = {
-        login: email.value ,
+        email: email.value ,
         password: password.value ,
     };
     
