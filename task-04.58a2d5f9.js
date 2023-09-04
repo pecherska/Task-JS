@@ -1,0 +1,2 @@
+const e=document.querySelector("#value");let t=Number(document.querySelector("#value").textContent);console.dir(e),console.log(t);const n=document.querySelector('button[data-action="decrement"]');console.dir(n);const o=document.querySelector('button[data-action="increment"]');function c(n){n.currentTarget.dataset===o.dataset?(t+=1,e.innerHTML=t):(t-=1,e.innerHTML=t)}console.dir(o),n.addEventListener("click",c),o.addEventListener("click",c);
+//# sourceMappingURL=task-04.58a2d5f9.js.map

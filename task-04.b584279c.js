@@ -1,0 +1,2 @@
+!function(){var e=document.querySelector("#value"),t=Number(document.querySelector("#value").textContent);console.dir(e),console.log(t);var n=document.querySelector('button[data-action="decrement"]');console.dir(n);var o=document.querySelector('button[data-action="increment"]');function r(n){n.currentTarget.dataset===o.dataset?(t+=1,e.innerHTML=t):(t-=1,e.innerHTML=t)}console.dir(o),n.addEventListener("click",r),o.addEventListener("click",r)}();
+//# sourceMappingURL=task-04.b584279c.js.map
